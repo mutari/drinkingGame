@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Card Game</title>
+        <script src="assets/script/main.js"></script>
+        <link rel="stylesheet" href="assets/style/main.css">
+    </head>
+    <body>
+
+        <dialog id="start-dialog">
+            <h4>Drinking game</h4>
+            <div>
+                <button onclick="startGame()">Start game</button>
+            </div>
+        </dialog>
+
+        <dialog id="card-dialog">
+            <h4>Card</h4>
+            <div>
+
+            </div>
+        </dialog>
+
+        <div id="game-board">
+            <div id="side">
+
+            </div>
+            <div id="main">
+                <div id="row-1"></div>
+                <div id="row-2"></div>
+                <div id="row-3"></div>
+                <div id="row-4"></div>
+            </div>
+        </div>
+
+        <template id="card-template">
+            <div class="card">
+                <img src="assets/images/Deck/deck_4_large.png" alt="">
+            </div>
+        </template>
+    </body>
+</html>
